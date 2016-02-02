@@ -34,7 +34,7 @@ div#block-search-api-page-default-search div.form-item-keys-1 {
     float:left;
     width:82%;
 }
-div#block-search-api-page-default-search input#edit-submit-1, div#block-search-api-page-default-search input#edit-submit-1--2 {
+div#block-search-api-page-default-search input#edit-submit-1, div#block-search-api-page-default-search input#edit-submit-1--2, div#block-search-api-page-default-search button#edit-submit-1, div#block-search-api-page-default-search button#edit-submit-1--2 {
     font-size: 2.2em;
     height: 1.50em;
     left: -31px;

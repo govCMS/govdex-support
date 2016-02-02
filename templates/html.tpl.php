@@ -16,7 +16,7 @@
 <head>
     <?php print $head; ?>
     <title><?php print $head_title; ?></title>
-
+    <?php print $scripts; ?>
     <?php if ($default_mobile_metatags): ?>
         <meta name="MobileOptimized" content="width">
         <meta name="HandheldFriendly" content="true">
@@ -36,7 +36,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
     <?php print $styles; ?>
-    <?php print $scripts; ?>
     <?php if ($add_html5_shim and !$add_respond_js): ?>
         <!--[if lt IE 9]>
         <script src="<?php print $base_path . $path_to_zen; ?>/js/html5.js"></script>
