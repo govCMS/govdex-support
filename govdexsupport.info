@@ -52,6 +52,8 @@ stylesheets[all][] = govcms_zen.css
 stylesheets[all][] = govcms_styles.css
 
 ; Then we add our own stylesheet.
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap-responsive.min.css
 stylesheets[all][] = css/styles.css
 
 ; Built-in conditional stylesheet support has been removed from Zen 7.x-5.x.
