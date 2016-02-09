@@ -26,11 +26,9 @@
 
     $layout = $sidebar ? 'layout-sidebar' : 'layout-full';
     ?>
-    <div class="row">
       <?php print $breadcrumb; ?>
 
       <?php print render($page['highlighted']); ?>
-    </div>
 
     <div class="row">
         <div class="span8 offset2" id="corporate">

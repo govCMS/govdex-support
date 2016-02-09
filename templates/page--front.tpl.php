@@ -20,9 +20,7 @@
   </header>
 
   <div class="container">
-    <div class="row">
       <?php print render($page['highlighted']); ?>
-    </div>
 
     <div class="row">
       <div id="corporateBlue" class="span8 offset2">
