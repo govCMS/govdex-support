@@ -91,6 +91,7 @@ scripts[] = js/support.js
 regions[header]         = Header
 regions[navigation]     = Navigation bar
 regions[highlighted]    = Highlighted
+regions[homesearch]     = Home search
 regions[help]           = Help
 regions[content]        = Content
 regions[sidebar]        = Sidebar

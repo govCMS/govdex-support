@@ -905,7 +905,7 @@ nav li a {
 nav li:hover, nav li:focus {
   background-color: #efefef
 }
-#searchform input#s {
+#searchform input#edit-keys-1 {
   width: 233px;
   border: 1px solid #fff
 }
@@ -923,7 +923,7 @@ nav li:hover, nav li:focus {
   color: #55738d !important
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  #searchform input#s {
+  #searchform input#edit-keys-1 {
     width: 234px
   }
   #searchform #searchsubmit {
@@ -1644,7 +1644,7 @@ a#action-dropdown {
   color: #696969
 }
 .alert a {
-  text-decoration: underline
+  text-decoration: underline;
 }
 .controls.alert-error .help-block, .control-group.alert-error .help-block {
   color: #000
@@ -2408,7 +2408,7 @@ html, body {
     width: auto !important;
     position: relative
   }
-  #searchform input#s {
+  #searchform input#edit-keys-1 {
     width: 90%
   }
   .comment .span1 {
@@ -2527,7 +2527,7 @@ html, body {
   }
 }
 @media (min-width: 768px) and (max-width: 980px) {
-  #searchform input#s {
+  #searchform input#edit-keys-1 {
     width: 130px
   }
   #usernameBox a.dropdown-toggle, #usernameBox .dropdown-menu {
@@ -2575,7 +2575,7 @@ html, body {
   }
 }
 @media (min-width: 980px) {
-  #searchform input#s {
+  #searchform input#edit-keys-1 {
     width: 180px
   }
   #usernameBox a.dropdown-toggle, #usernameBox .dropdown-menu {
@@ -2590,7 +2590,7 @@ html, body {
   }
 }
 @media (min-width: 1200px) {
-  #searchform input#s {
+  #searchform input#edit-keys-1 {
     width: 234px
   }
   #usernameBox a.dropdown-toggle, #usernameBox .dropdown-menu {
@@ -2662,7 +2662,7 @@ div#corporateBlue .bigGrid a:active *, div#corporateBlue .bigGrid a:hover *, div
   width: 100%;
   position: relative
 }
-.span8 #searchform>div #s {
+.span8 #searchform>div #edit-keys-1 {
   width: 88%;
   font-size: 1.55em;
   margin-top: 0px;
@@ -2671,7 +2671,7 @@ div#corporateBlue .bigGrid a:active *, div#corporateBlue .bigGrid a:hover *, div
   margin-left: 5px
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  .span8 #searchform>div #s {
+  .span8 #searchform>div #edit-keys-1 {
     width: 89%;
     margin-left: 3px
   }
@@ -2695,7 +2695,7 @@ div#corporateBlue .bigGrid a:active *, div#corporateBlue .bigGrid a:hover *, div
   margin: 0;
   border-bottom: none
 }
-.error404 .span8 #searchform>div #s {
+.error404 .span8 #searchform>div #edit-keys-1 {
   width: 80%
 }
 .error404 .span8 #searchform>div #searchsubmit {
@@ -2705,7 +2705,7 @@ body.search .span8 #searchform>div {
   margin: 0 0 0 -1.4em;
   padding-top: 5px
 }
-body.search .span8 #searchform>div #s {
+body.search .span8 #searchform>div #edit-keys-1 {
   border: 1px solid #5e7a93;
   padding-bottom: 0
 }
@@ -2853,7 +2853,7 @@ body.logged-in .widget .subscribe:after {
     border-radius: 2px 30px 2px 30px;
     padding-right: 10px !important
   }
-  .span8 #searchform>div #s {
+  .span8 #searchform>div #edit-keys-1 {
     font-size: 1.2em;
     padding: 9px 5px 7px 5px
   }
@@ -2873,7 +2873,7 @@ body.logged-in .widget .subscribe:after {
   #logo {
     display: none
   }
-  .span8 #searchform>div #s {
+  .span8 #searchform>div #edit-keys-1 {
     width: 80%
   }
   .span8 #searchform>div #searchsubmit {
@@ -3032,7 +3032,7 @@ body.logged-in .widget .subscribe:after {
   .span8 .span7 {
     width: 93%
   }
-  .span8 #searchform>div #s {
+  .span8 #searchform>div #edit-keys-1 {
     width: 88%;
     margin-left: 0
   }
@@ -3081,7 +3081,7 @@ div#block-search-api-page-default-search {
 div#block-search-api-page-default-search > div {
   padding: 2em 1em 1em;
 }
-div#block-search-api-page-default-search input#edit-keys-1, div#block-search-api-page-default-search input#edit-keys-1--2 {
+div#block-search-api-page-default-search input#edit-keys-1 , div#block-search-api-page-default-search input#edit-keys-1 --2 {
   font-size: 1.55em;
   height: 2.15em;
   margin-left: 5px;
@@ -3119,15 +3119,16 @@ div#block-search-api-page-default-search input#edit-submit-1, div#block-search-a
 }
 p.tagline {
   margin-top: 50px;
+  margin-top: 20px;
 }
 ul.bigGrid {
-  padding-top: 45px;
+  /*padding-top: 45px;*/
   padding-right: 75px;
 }
-.alert.warning h2 {
-  color: #444;
+/*.alert h2 {
+  color: #55738D;
   margin: 0;
-}
+}*/
 
 .breadcrumb {
   background-color: transparent !important;
