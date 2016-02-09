@@ -2744,10 +2744,13 @@ body.search .span8 #searchform>div #searchsubmit:hover .fa {
   border-color: #ffa024;
   box-shadow: 0px 9px 15px #696969;
   text-shadow: none;
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 1.2em;
   padding: 10px;
   text-align: center
+}
+body.front #urgent-notices .alert {
+  margin-top: 40px;
 }
 #urgent-notices .fa {
   color: #b94a48;
@@ -3079,7 +3082,7 @@ body.logged-in .widget .subscribe:after {
     display: none
   }
 }
-div#block-search-api-page-default-search {
+/*div#block-search-api-page-default-search {
   width: 670px;
   margin-left: 230px;
 }
@@ -3121,7 +3124,7 @@ div#block-search-api-page-default-search input#edit-submit-1, div#block-search-a
   float: right;
   margin-right: -9px;
   color: #fff;
-}
+}*/
 p.tagline {
   /*margin-top: 50px;*/
   margin-top: 20px;
