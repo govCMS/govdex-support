@@ -2732,7 +2732,8 @@ body.search .span8 #searchform>div #searchsubmit:hover .fa {
 }
 #urgent-notices p,
 #urgent-notices a {
-  color: #b94a48
+  color: #b94a48;
+  margin-bottom: 0;
 }
 /*#urgent-notices p {*/
 #urgent-notices .alert {
