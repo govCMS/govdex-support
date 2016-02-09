@@ -48,9 +48,9 @@
 
   <div class="content"<?php print $content_attributes; ?>>
     <section id="urgent-notices" class="span8 offset2">
-      <p class="alert">
+      <div class="alert">
         <i class="fa fa-warning"></i> <?php print $content ?>
-      </p>
+      </div>
     </section>
   </div>
 </div>
