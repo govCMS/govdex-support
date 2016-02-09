@@ -1966,7 +1966,7 @@ p.tagline {
   text-align: center;
   font-size: 170%;
   color: #55738d;
-  margin: 10px 0 5px 20px;
+  margin: 10px 0 15px 20px;
   font-weight: 500
 }
 h2 {
@@ -2735,28 +2735,26 @@ body.search .span8 #searchform>div #searchsubmit:hover .fa {
   color: #b94a48;
   margin-bottom: 0;
 }
-/*#urgent-notices p {*/
 #urgent-notices .alert {
   border-color: #b94a48;
   border-color: #ffa024;
   box-shadow: 0px 9px 15px #696969;
   text-shadow: none;
-  top: 40px;
-  position: relative;
+  margin-top: 40px;
   font-size: 1.2em;
   padding: 10px;
   text-align: center
 }
 #urgent-notices .fa {
   color: #b94a48;
-  font-size: 1.35em
+  font-size: 1.35em;
 }
 #corporate {
   margin-top: 1em
 }
 #corporate ul {
   padding-left: 20px;
-  list-style: none
+  list-style: none;
 }
 #corporate ul li {
   margin-bottom: 10px
@@ -3121,7 +3119,7 @@ div#block-search-api-page-default-search input#edit-submit-1, div#block-search-a
   color: #fff;
 }
 p.tagline {
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   margin-top: 20px;
 }
 ul.bigGrid {
