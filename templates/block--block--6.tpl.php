@@ -47,10 +47,6 @@
 <div id="<?php print $block_html_id; ?>" class="<?php print $classes; ?> row"<?php print $attributes; ?>>
 
   <div class="content"<?php print $content_attributes; ?>>
-    <section id="urgent-notices" class="span8 offset2">
-      <div class="alert">
-        <?php print $content ?>
-      </div>
-    </section>
+    <?php print $content ?>
   </div>
 </div>
