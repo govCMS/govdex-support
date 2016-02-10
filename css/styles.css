@@ -2873,6 +2873,7 @@ body.logged-in .widget .subscribe:after {
 }
 .form-item.webform-component > label {
   font-weight: bold;
+  margin-top: 20px;
 }
 
 @media (max-width: 300px) {
