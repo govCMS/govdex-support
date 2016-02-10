@@ -34,3 +34,10 @@ function govdexsupport_js_alter(&$javascript) {
   }
 }
 
+
+/**
+* Implements hook_form_alter()
+*/
+function govdexsupport_form_alter(&$form, &$form_state, $form_id) {
+  $form['actions']['submit']['#attributes']['class'][] = 'btn-primary';
+}

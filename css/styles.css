@@ -2856,6 +2856,25 @@ body.logged-in .widget .subscribe:after {
   right: -5px;
   font-size: 6.2em
 }
+
+
+/* Form styles */
+.form-item input[type=checkbox],
+.form-item input[type=radio] {
+  float: left;
+  margin-right: 8px;
+  margin-top: 1px;
+}
+.form-item {
+  margin-top: 5px;
+}
+.form-item.webform-component {
+  margin-top: 10px;
+}
+.form-item.webform-component > label {
+  font-weight: bold;
+}
+
 @media (max-width: 300px) {
   div #corporateBlue {
     border-radius: 2px 30px 2px 30px;

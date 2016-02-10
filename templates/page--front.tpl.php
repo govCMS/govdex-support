@@ -11,7 +11,7 @@
 <div id="notFooter">
   <header id="branding" class="row" role="banner">
     <div class="container">
-      <a class="span12" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo" id="coa">
+      <a class="span12" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="header__logo">
         <img id="coa" width="272" height="64" src="/<?php echo drupal_get_path('theme',$GLOBALS['theme']) ?>/images/coas.svg" alt="Australian Government" class="header__logo-image" />
         <img id="logo" width="78" height="90" alt="govdex" src="/<?php echo drupal_get_path('theme',$GLOBALS['theme']) ?>/images/gds.svg">
       </a>
