@@ -8,7 +8,7 @@
     </button>
 
     <input type="hidden" value="1" name="id">
-    <input type="hidden" value="1" name="form_id" value="searchform">
+    <input type="hidden" name="form_id" value="searchform">
     <?php print $variables['elements']['base_1']['#children']; ?>
     <?php print $variables['elements']['id']['#children']; ?>
     <?php print $variables['elements']['form_build_id']['#children']; ?>
