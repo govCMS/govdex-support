@@ -8,7 +8,6 @@
       <span class="screen-reader-text">Search</span>
     </button>
     <?php print $variables['elements']['form_build_id']['#children']; ?>
-    <?php print $variables['elements']['form_token']['#children']; ?>
     <?php print $variables['elements']['form_id']['#children']; ?>
   </div>
 </form>
