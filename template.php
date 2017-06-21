@@ -30,7 +30,7 @@ function govdexsupport_js_alter(&$javascript) {
   }
 // Swap out jQuery to use an updated version of the library.
   if ($replace_jquery) {
-    $javascript['misc/jquery.js']['data'] = '//code.jquery.com/jquery-2.1.4.min.js';
+    $javascript['misc/jquery.js']['data'] = '//code.jquery.com/jquery-2.2.4.min.js';
     $javascript['misc/jquery.form.js']['data'] = '//cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.1/jquery.form.min.js';
   }
 }
