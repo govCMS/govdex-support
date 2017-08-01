@@ -5,8 +5,8 @@
       // Custom site scripts.
       $(document).ready(function(){
         if(window.location.href.indexOf("/contact-us") > -1) {
-          $('#edit-submitted-attachments-upload-button', context).mousedown(function () {
-            $(".webform-submit").prop('disabled', true);
+          $('#edit-submitted-attachments-upload', context).mousedown(function () {
+              $(".webform-submit").prop('disabled', true);
           });
         $(document).ajaxComplete(function(){
           if ($('span').hasClass('file'))   {
