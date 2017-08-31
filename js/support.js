@@ -6,9 +6,6 @@
       $(document).ready(function(){
         if(window.location.href.indexOf("/contact-us") > -1) {
           $('.form-file', context).mousedown(function () {
-            var button = $(this).attr("id");
-            console.log(button);
-            var file = $('.form-file')[0].files[0];
             if ($('#file-clear').length == 0) {
               $('<button id=file-clear type=button size="22" style="border-radius: 6px; background-color: white; border: 1px solid darkgray; margin: 10px;  " onclick=jQuery(".form-file").replaceWith(jQuery(".form-file").val(\'\').clone(true));jQuery(this.remove());>Clear File</button>').insertBefore("input[name='submitted_attachments_upload_button']");
             }
