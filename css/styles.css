@@ -3780,6 +3780,7 @@ ul.bigGrid {
   margin-top: 0;
 }
 
+/* This section is a placeholder section */
 .view-notices .view-content .views-row .node-blog-article .group-left {
   background-color: lightblue;
   padding: 12px 6px 4px 6px;
@@ -3792,9 +3793,18 @@ ul.bigGrid {
   vertical-align: middle;
 }
 
+.view-notices .view-content .views-row .node-blog-article .group-right .field-name-title h2 {
+  margin-top: -0.675rem !important;
+}
+
 .view-notices .attachment {
   border: 1px solid #c1c1c1;
   padding: 10px;
+  margin-top: 20px;
+}
+
+.view-notices .attachment .view-notices {
+
 }
 
 .view-notices .attachment ul {
