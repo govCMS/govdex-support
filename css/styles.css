@@ -3779,3 +3779,12 @@ ul.bigGrid {
 .views-row-first {
   margin-top: 0;
 }
+
+.view-notices .attachment {
+  border: 1px solid #c1c1c1;
+  padding: 10px;
+}
+
+.view-notices .attachment ul {
+  padding-left: 0 !important;
+}
