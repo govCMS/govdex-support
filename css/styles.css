@@ -3780,6 +3780,18 @@ ul.bigGrid {
   margin-top: 0;
 }
 
+.view-notices .view-content .views-row .node-blog-article .group-left {
+  background-color: lightblue;
+  padding: 12px 6px 4px 6px;
+  width: 54px;
+  height: 54px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  vertical-align: middle;
+}
+
 .view-notices .attachment {
   border: 1px solid #c1c1c1;
   padding: 10px;
