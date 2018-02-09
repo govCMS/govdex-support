@@ -31,7 +31,7 @@
       <?php print render($page['highlighted']); ?>
 
     <div class="row">
-        <div class="span8 offset2" id="corporate">
+        <div class="span10 offset1" id="corporate">
           <div class="container-inner">
             <div class="<?php print $layout; ?>">
 
