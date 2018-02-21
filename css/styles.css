@@ -86,7 +86,7 @@ h1 {
 }
 
 body {
-  font-size: 12px
+  font-size: 14px
 }
 
 h1.span12 {
@@ -3356,6 +3356,49 @@ body.front #urgent-notices .alert {
   font-size: 1.35em;
 }
 
+ul.tabs {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+ul.tabs li {
+  display: inline;
+  margin-left: 0 !important;
+  margin-right: 1em;
+  padding: 0.5em;
+  background: #dedede;
+}
+
+.field-name-field-tags, .field-name-post-date {
+  padding-bottom: 0.5em;
+}
+body.node-type-blog-article .field-name-field-tags, body.node-type-blog-article .field-name-post-date {
+  width: 50%;
+  float: left;
+}
+body.node-type-blog-article .field-name-post-date {
+  font-weight: 700;
+}
+body.node-type-blog-article .field-name-post-date .field-item,
+body.page-taxonomy-term .field-name-post-date .field-item {
+  float: right;
+  background-color: #56728F;
+  color: #fff;
+  -webkit-border-top-right-radius: 12px;
+  -webkit-border-bottom-left-radius: 12px;
+  -moz-border-radius-topright: 12px;
+  -moz-border-radius-bottomleft: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+  padding: 12px 6px 4px 6px;
+  width: 54px;
+  height: 54px;
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  vertical-align: middle;
+}
 #corporate {
   margin-top: 1em
 }
@@ -3369,7 +3412,7 @@ body.front #urgent-notices .alert {
   margin-bottom: 10px
 }
 
-#corporate ul li:before {
+#corporate .item-list ul li:before {
   font-family: 'FontAwesome';
   content: '\f111';
   font-size: 0.55em;
@@ -3782,11 +3825,18 @@ ul.bigGrid {
 
 /* This section is a placeholder section */
 .view-notices .view-content .views-row .node-blog-article .group-left {
-  background-color: lightblue;
+  background-color: #56728F;
+  color: #fff;
+  -webkit-border-top-right-radius: 12px;
+  -webkit-border-bottom-left-radius: 12px;
+  -moz-border-radius-topright: 12px;
+  -moz-border-radius-bottomleft: 12px;
+  border-top-right-radius: 12px;
+  border-bottom-left-radius: 12px;
   padding: 12px 6px 4px 6px;
   width: 54px;
   height: 54px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 16px;
   text-align: center;
   line-height: 22px;
