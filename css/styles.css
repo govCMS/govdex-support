@@ -3372,10 +3372,24 @@ ul.tabs li {
 .field-name-field-tags, .field-name-post-date {
   padding-bottom: 0.5em;
 }
-body.node-type-blog-article .field-name-field-tags, body.node-type-blog-article .field-name-post-date {
-  width: 50%;
-  float: left;
+body.node-type-blog-article .main-content {
+  position: relative;
 }
+
+body.node-type-blog-article .main-content .field-name-post-date {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body.node-type-blog-article .main-content h1.title, body.node-type-blog-article .main-content .field-name-field-tags {
+  padding-right: 75px;
+}
+
+body.node-type-blog-article .main-content .field-name-body {
+  padding-top: 1em;
+}
+
 body.node-type-blog-article .field-name-post-date {
   font-weight: 700;
 }
