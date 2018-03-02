@@ -3857,6 +3857,17 @@ ul.bigGrid {
   vertical-align: middle;
 }
 
+@media screen and (max-width: 767px) {
+  .view-notices .view-content .views-row .node-blog-article .group-left {
+    background: none;
+    color: #55738d;
+    padding-left: 0;
+    text-align: left;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .view-notices .view-content .views-row .node-blog-article .group-right .field-name-title h2 {
   margin-top: -0.675rem !important;
 }
