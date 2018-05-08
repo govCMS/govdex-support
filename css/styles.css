@@ -2266,6 +2266,12 @@ h1 i.icon-exclamation-sign.task-urgent.icon-large {
   margin-top: 50px !important
 }
 
+.attachment.attachment-after.span2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .attachment .preview .span2 .fileType {
   font-size: 25px !important;
   margin: 59px 0 0 -84px !important
@@ -3425,7 +3431,7 @@ body.page-taxonomy-term .field-name-post-date .field-item {
 #corporate ul li {
   margin-bottom: 10px
 }
-
+/*
 #corporate .item-list ul li:before {
   font-family: 'FontAwesome';
   content: '\f111';
@@ -3435,7 +3441,10 @@ body.page-taxonomy-term .field-name-post-date .field-item {
   top: -1px;
   position: relative
 }
-
+*/
+#corporate .item-list {
+  clear: both;
+}
 #corporate ul.landing li {
   font-size: 1.2em;
   line-height: 1.5em
