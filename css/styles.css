@@ -2267,9 +2267,9 @@ h1 i.icon-exclamation-sign.task-urgent.icon-large {
 }
 
 .attachment.attachment-after.span2 {
-  position: absolute;
-  top: 375px;
-  right: 200px;
+  position: static;
+  margin-left: 78%;
+  margin-top: -58em;
 }
 
 .attachment.attachment-after.span2 .item-list ul li:before {
