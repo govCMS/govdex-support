@@ -2268,8 +2268,8 @@ h1 i.icon-exclamation-sign.task-urgent.icon-large {
 
 .attachment.attachment-after.span2 {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 375px;
+  right: 200px;
 }
 
 .attachment.attachment-after.span2 .item-list ul li:before {
@@ -2297,6 +2297,10 @@ h1 i.icon-exclamation-sign.task-urgent.icon-large {
 
 .attachment .preview .span4 h2 a {
   text-decoration: underline
+}
+
+ul.pager {
+  clear: both;
 }
 
 ul.navTree li {
@@ -3454,7 +3458,7 @@ body.page-taxonomy-term .field-name-post-date .field-item {
 }
 */
 #corporate .item-list {
-  clear: both;
+  
 }
 #corporate ul.landing li {
   font-size: 1.2em;
