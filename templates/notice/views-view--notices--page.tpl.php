@@ -52,7 +52,13 @@
   <?php endif; ?>
 
   <?php if ($rows): ?>
-    <div class="view-content span7">
+    <div class="view-content span7"> 
+
+   <?php if ($attachment_after): ?>
+    <div class="attachment attachment-after span2">
+      <?php print $attachment_after; ?>
+    </div>
+  <?php endif; ?>
       <?php print $rows; ?>
     </div>
   <?php elseif ($empty): ?>
@@ -65,11 +71,7 @@
     <?php print $pager; ?>
   <?php endif; ?>
 
-  <?php if ($attachment_after): ?>
-    <div class="attachment attachment-after span2">
-      <?php print $attachment_after; ?>
-    </div>
-  <?php endif; ?>
+
 
   <?php if ($more): ?>
     <?php print $more; ?>
