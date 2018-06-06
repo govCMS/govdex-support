@@ -2272,6 +2272,13 @@ h1 i.icon-exclamation-sign.task-urgent.icon-large {
   margin-left: 75%;
 }
 
+body.not-logged-in .attachment.attachment-after.span2 {
+  position:absolute;
+  margin-top: -2em;
+  margin-left: 49%;
+}
+
+
 .attachment.attachment-after.span2 .item-list ul li:before {
   font-family: 'FontAwesome';
   content: '\f111';
