@@ -2269,13 +2269,13 @@ h1 i.icon-exclamation-sign.task-urgent.icon-large {
 .attachment.attachment-after.span2 {
   position:absolute;
   margin-top: -2em;
-  margin-left: 75%;
+  margin-left: 35%;
 }
 
 body.not-logged-in .attachment.attachment-after.span2 {
   position:absolute;
   margin-top: -2em;
-  margin-left: 42%;
+  margin-left: 35%;
 }
 
 
